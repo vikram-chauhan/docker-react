@@ -12,10 +12,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "docker-react"
+  app: "docker-react-aws"
   env: "Dockerreactaws-env"
   bucker_name: "elasticbeanstalk-ap-south-1-923553532684"
-  bucket_path: "docker-react"
+  bucket_path: "docker-react-aws"
   on:
     branch: master
   access_key_id: $aws_access_key
